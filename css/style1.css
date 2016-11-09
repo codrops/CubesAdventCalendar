@@ -53,6 +53,10 @@
 	background: #aaa;
 }
 
+.js .content__block {
+	text-align: right;
+}
+
 .content__number {
 	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
 	font-size: 40vw;

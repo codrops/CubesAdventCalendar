@@ -6,6 +6,8 @@ A 3D Advent calendar with fun hover effects and background color animations. Cli
 
 [Demo](http://tympanus.net/Development/CubesAdventCalendar/)
 
+This demo is sponsored by [Webydo: Design and development, all-in-one](https://goo.gl/Z3wbtl).
+
 ## License
 
 Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
