@@ -2,6 +2,8 @@
 
 A 3D Advent calendar with fun hover effects and background color animations. Clicking the boxes opens another content level with different element animations. Inspired by [Adult Swim](http://www.adultswim.com/music/singles-2016/). Firefox support is [buggy](https://bugzilla.mozilla.org/show_bug.cgi?id=904304).
 
+![Cubes Advent Calendar](http://tympanus.net/codrops/wp-content/uploads/2016/11/BoxesAdventCalendar.gif)
+
 [Article on Codrops](http://tympanus.net/codrops/?p=28603&preview=true)
 
 [Demo](http://tympanus.net/Development/CubesAdventCalendar/)
