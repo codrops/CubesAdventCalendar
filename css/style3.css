@@ -1,0 +1,129 @@
+body {
+	background: #cc0019;
+	color: #fceeb8;
+	font-family: 'BioRhyme', serif;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover,
+a:focus {
+	color: #fceeb8;
+}
+
+.codrops-header {
+	background: none;
+}
+
+.codrops-header__tagline,
+.codrops-demos,
+.content__description,
+.content__meta {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.codrops-demos a.current-demo {
+	color: #fceeb8;
+}
+
+.calendar {
+	-webkit-perspective: 2500px;
+	perspective: 2500px;
+}
+
+.cube__side,
+.no-js .cube {
+	border: 3px solid #fff;
+	outline: 1px solid #fff;
+	background: #f0f0f0 url(../img/c1.png) no-repeat center center;
+}
+
+.cube:not(.cube--inactive):nth-child(2n) .cube__side,
+.no-js .cube:not(.cube--inactive):nth-child(2n) {
+	background-image: url(../img/c2.png);
+}
+
+.cube:not(.cube--inactive):nth-child(3n) .cube__side,
+.no-js .cube:not(.cube--inactive):nth-child(3n) {
+	background-image: url(../img/c3.png);
+}
+
+.cube:not(.cube--inactive):nth-child(4n) .cube__side,
+.no-js .cube:not(.cube--inactive):nth-child(4n) {
+	background-image: url(../img/c4.png);
+}
+
+.cube:not(.cube--inactive):nth-child(5n) .cube__side,
+.no-js .cube:not(.cube--inactive):nth-child(5n) {
+	background-image: url(../img/c5.png);
+}
+
+.cube--inactive .cube__side,
+.no-js .cube--inactive {
+	background: #e6e6e6;
+}
+
+
+/* With JS we insert a number span into the cube */
+
+.cube__number,
+.no-js .cube::after {
+	font-weight: 700;
+	color: #cc0019;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	height: 1.5em;
+	line-height: 1.5;
+	bottom: auto;
+	margin: -0.75em 0 0;
+}
+
+.cube--inactive .cube__number,
+.no-js .cube--inactive::after {
+	color: #cac9c9;
+}
+
+.js .content__block {
+	width: 100%;
+	padding: 0 5vw 0 20vw;
+}
+
+.js .content__description {
+	padding: 0 0 0 4vw;
+}
+
+.content__number {
+	color: #000;
+	font-weight: bold;
+	line-height: 0.5;
+	letter-spacing: -0.175em;
+	font-size: 30vw;
+	left: -5vw;
+	bottom: 8vh;
+}
+
+.content__title {
+	font-size: 6vw;
+}
+
+.title {
+	color: #fceeb8;
+	right: auto;
+	left: 3vw;
+}
+
+@media screen and (max-width: 50.75em) {
+	.js .content__block {
+		padding: 4em 2em 0;
+		-webkit-justify-content: flex-start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.content__number {
+		bottom: 30vh;
+	}
+}
